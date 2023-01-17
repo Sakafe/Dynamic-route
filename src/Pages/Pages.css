@@ -1,0 +1,21 @@
+section{
+    display: grid;
+    grid-gap: 1rem;
+}
+article{
+    background-color: aquamarine;
+}
+@media screen and (min-width: 600px) {
+    section{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (min-width: 992px) {
+    section{
+        grid-template-columns: auto auto auto;
+    }
+}
+.btn{
+    background-color: darksalmon;
+    margin: 10px;
+}
